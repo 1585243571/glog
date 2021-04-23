@@ -64,11 +64,11 @@
 #if defined(__OpenBSD__)
 #include <sys/exec_elf.h>
 #else
-#include <elf.h>
+#include <sys/elf.h>
 #endif
 
 #if !defined(ANDROID)
-#include <link.h>  // For ElfW() macro.
+#include <sys/link.h>  // For ElfW() macro.
 #endif
 
 // For systems where SIZEOF_VOID_P is not defined, determine it

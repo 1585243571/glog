@@ -114,7 +114,7 @@ _END_GOOGLE_NAMESPACE_
 #if defined(OS_OPENBSD)
 #include <sys/exec_elf.h>
 #else
-#include <elf.h>
+#include <sys/elf.h>
 #endif
 #include <errno.h>
 #include <fcntl.h>

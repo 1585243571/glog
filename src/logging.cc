@@ -85,7 +85,7 @@ using std::fprintf;
 using std::perror;
 
 #ifdef __QNX__
-using std::fdopen;
+//using std::fdopen;
 #endif
 
 #ifdef _WIN32
